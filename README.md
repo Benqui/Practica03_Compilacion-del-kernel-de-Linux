@@ -6,7 +6,7 @@ Practica 03 de la materia de Sistemas Operativos 2
 * Angel Yedid Nacif Mena
 * Carlos Abraham Martines Zamora
 * Genaro Gonzales Lozada  
-Practica 01 de la materia de Sistemas Operativos 2  
+Practica 03 de la materia de Sistemas Operativos 2  
 
 
 ## 1.¿Cómo hacer un respaldo de una máquina virtual? y ¿cómo levantar ese respaldo? (En VirtualBox)

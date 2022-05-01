@@ -12,6 +12,7 @@ Practica 03 de la materia de Sistemas Operativos 2
 ## 1.¿Cómo hacer un respaldo de una máquina virtual? y ¿cómo levantar ese respaldo? (En VirtualBox)
 
 ## 2.Explicar la nomenclatura del kernel.
+![Explicacion_kernelversion](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/002.png)
 
 ## 3.Investigar y enlistar los paquetes requeridos para la compilación y ¿cómo instalarlos desde terminal?.
 

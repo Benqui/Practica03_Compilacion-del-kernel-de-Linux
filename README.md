@@ -21,6 +21,7 @@ Practica 03 de la materia de Sistemas Operativos 2
     ![1_2](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_2.png)    
     4. En el apartado de NAME, cambiamos el nombre si es necesario y damos click a ```Export```    
     ![1_3](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_3.png)    
+
     Listo ya tienes un respaldo de tu maquina virtual!!
 
 * Ahora bien para usar/levantar el respaldo creado, los pasos a seguir son los siguientes:
@@ -35,8 +36,6 @@ Practica 03 de la materia de Sistemas Operativos 2
     ![1_7](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_7.png)
 
 
-
-
 ## 2.Explicar la nomenclatura del kernel.
 * Para poder explicar la nomenclatura de la version del kernel que tenemos tenemos que usar el siguente comando que es   ```uname -r``` para solo ver la version, o ```uname -a``` para tener la informacion completa    
 ![Explicacion_kernelversion](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/2_0.png)
@@ -45,12 +44,25 @@ Practica 03 de la materia de Sistemas Operativos 2
     - B. Es el numero de la version actual o sub-version del kernel, es como la version de la version del kernel, si la version es par es estable si es impar significa que es inestable
     - C. Es el numero de las revisiones menores que tiene el kernel, este numero cambia cuando se agregan nuevas caracteristicas al kernel
     - D. Es el numero de correcciones que ha tenido el kernel   
-
-
-
+* Como nota el kernel que tenemos en nuestra maquina virtual es este:     
+![2_1](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/2_1.png)
 
 
 ## 3.Investigar y enlistar los paquetes requeridos para la compilación y ¿cómo instalarlos desde terminal?.
+
+* Los paquetes que necesitamos, todos se instalan con el comando ```sudo apt intall```, los paquetes que necesitamos son los siguientes:
+![3_0](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/3_0.png)
+
+- git
+- fakeroot
+- build-essential	
+- ncurses-dev	
+- xz-utils	
+- libssl-dev	
+- bc
+- flex
+- libelf-dev	
+- bison
 
 ## 4.¿Cómo descargar una versión de kernel desde terminal?.
 

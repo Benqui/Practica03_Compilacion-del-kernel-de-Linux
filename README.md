@@ -31,6 +31,9 @@ Practica 03 de la materia de Sistemas Operativos 2
     3. Si queremos podemos cambiar el nombre que va a tener el respaldo o lo podemos dejar asi y damos click a ```Import```    
     ![1_6](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_6.png)    
 
+    Listo ya tenemos un respaldo de nuestra maquina virtual!!
+    ![1_7](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_7.png)
+
 
 
 

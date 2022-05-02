@@ -13,7 +13,17 @@ Practica 03 de la materia de Sistemas Operativos 2
 * Este punto es importante tenerlo en cuenta ya que siempre es bueno tener un respaldo de nuestras maquinas virtuales cuando hacemos un cambio mayor como el que vamos a hacer, ya que no sabemos que vaya a pasar o tal vez ocurra un error y ya no funcione mas la maquina vitrual y tengamos que levantar una desde cero, es mejor, por buena costumbre y para ahorrarnos el trabajo de crear una nueva maquina virtual tener un respaldo.
 * Para ello haremos los siguientes pasos:
 
-    1. En una ventana abierta de virtual box seleccionar nuetra maquina virtual a respaldar 
+    1. En una ventana abierta de virtual box seleccionar nuetra maquina virtual a respaldar, despues das click a file -> Export Appliance o ```Ctrl + E```      
+    ![1_0](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_0.png)    
+    2. Como vemos la maquina virtual esta seleccionada, pero si no lo esta seleccionala y da click a ```Next```    
+    ![1_1](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_1.png)    
+    3. Seleccionas el formato y el luegar donde vas a guardar el back up y das next ```Next```    
+    ![1_2](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_2.png)    
+    4. En el apartado de NAME, cambiamos el nombre si es necesario y damos click a ```Export```    
+    ![1_3](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_3.png)    
+
+
+
 
 ## 2.Explicar la nomenclatura del kernel.
 * Para poder explicar la nomenclatura de la version del kernel que tenemos tenemos que usar el siguente comando que es   ```uname -r``` para solo ver la version, o ```uname -a``` para tener la informacion completa    

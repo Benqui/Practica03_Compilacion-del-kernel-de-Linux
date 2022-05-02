@@ -52,6 +52,7 @@ Practica 03 de la materia de Sistemas Operativos 2
 
 * Los paquetes que necesitamos, todos se instalan con el comando ```sudo apt intall```, los paquetes que necesitamos son los siguientes:
 ![3_0](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/3_0.png)
+![3_1](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/3_1.png)
 
 - git
 - fakeroot
@@ -65,6 +66,13 @@ Practica 03 de la materia de Sistemas Operativos 2
 - bison
 
 ## 4.¿Cómo descargar una versión de kernel desde terminal?.
+* Ocupamos usar el comando ```wget``` la version mas reciente a la fecha de hacer este tutorial es la version ```5.17.5```
+![4_0](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/4_0.png)
+
+* El comando completo (para que lo puedan copiar) es:
+```wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.5.tar.xz```
+![4_2](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/4_2.png)
+En mi caso lo movi a documentos
 
 ## 5.¿Cómo extraer el código comprimido del kernel desde terminal?
 

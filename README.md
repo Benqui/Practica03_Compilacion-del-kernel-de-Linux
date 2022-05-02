@@ -21,6 +21,15 @@ Practica 03 de la materia de Sistemas Operativos 2
     ![1_2](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_2.png)    
     4. En el apartado de NAME, cambiamos el nombre si es necesario y damos click a ```Export```    
     ![1_3](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_3.png)    
+    Listo ya tienes un respaldo de tu maquina virtual!!
+
+* Ahora bien para usar/levantar el respaldo creado, los pasos a seguir son los siguientes:
+    1. En una ventana abierta de virtual box seleccionar nuetra maquina virtual a respaldar, despues das click a file -> Import Appliance o ```Ctrl + I```      
+    ![1_4](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_4.png)    
+    2. Buscamos la ubicacion de nuestro respaldo y damos click a ```Next```    
+    ![1_5](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_5.png)    
+    3. Si queremos podemos cambiar el nombre que va a tener el respaldo o lo podemos dejar asi y damos click a ```Import```    
+    ![1_6](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/1_6.png)    
 
 
 

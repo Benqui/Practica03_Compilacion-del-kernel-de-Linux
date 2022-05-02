@@ -101,6 +101,10 @@ Y ahora como podemos ver, ya tenemos la carpeta del kernel que vamos a compilar
 
     
 ## 7.¿Cómo compilar el código del kernel?
+* Para compilar el codigo del kernel necesitamos correr el comando ```make```  
+![7_0](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/7_0.png)  
+* NOTA IMPORTANTE: Esto va a tardar un rato asi que tomalo con calma
+
 
 ## 8.¿Cómo instalar módulos?
 

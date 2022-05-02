@@ -106,11 +106,20 @@ Y ahora como podemos ver, ya tenemos la carpeta del kernel que vamos a compilar
 
 
 
-## 8.¿Cómo instalar módulos?
+## 8.¿Cómo instalar módulos?  
 
-## 9.¿Cómo instalar el kernel?
+* Para hacer la instalacion de modulos simplemente es correr el comando ```sudo make modules_install```  
 
-## 10.¿Cómo indicarle a la computadora con cuál kernel debe iniciar?
+
+## 9.¿Cómo instalar el kernel?  
+* Para instalar el kernel tenemos que correr el comando ```sudo make install``` 
+
+## 10.¿Cómo indicarle a la computadora con cuál kernel debe iniciar?  
+* Para lograr esto tenemos que correr dos comandos:  
+    1. El primero es ```sudo update-initramfs -c -k 5.17.5``` para configurar nuestro nuevo kernel como el kernel que se usara de ahora en adelante  
+    2. Despues actualizamos el grup para que tome los nuevos cambios realizados con el comando ```sudo update-grub``` 
+
 
 ## 11.¿Cómo verificar el cambio de kernel a partir de consola?
 
+* Este paso lo vimos en el punto 2 que es con el comando ```uname -r```  

@@ -17,7 +17,7 @@ Practica 03 de la materia de Sistemas Operativos 2
 
 ## 2.Explicar la nomenclatura del kernel.
 * Para poder explicar la nomenclatura de la version del kernel que tenemos tenemos que usar el siguente comando que es   ```uname -r``` para solo ver la version, o ```uname -a``` para tener la informacion completa    
-![Explicacion_kernelversion](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/002.png)
+![Explicacion_kernelversion](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/2_0.png)
 * La explicacion de la nomemclatura es la siguiente:
     - A. Es el numero de la version del kernel 
     - B. Es el numero de la version actual o sub-version del kernel, es como la version de la version del kernel, si la version es par es estable si es impar significa que es inestable

@@ -80,9 +80,26 @@ En mi caso lo movi a documentos
 Y ahora como podemos ver, ya tenemos la carpeta del kernel que vamos a compilar  
 ![5_1](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/5_1.png)  
 
-
 ## 6.¿Cómo configurar el kernel?
+* Para configurar el Kernel hay dos formas:
+    - La primera (y la que vamos a usar) es usar la configuracion que ya viene en nuestra distribucion de linux, la ventaja es que tienes todos los modulos, pero es mas tardado y hace que el kernel sea mas pesado
+    - La segunda es usar el comando ```make localmodeconfig``` que es crear una configuracion en base a los dispositivos que tienes conectados, la desventaja es que no podras conectar otras cosas como lo son impresoras, entre otras cosas, pero tienes un kernel mas ligero y rapido.
+* Como ya mencionamos vamos a la primera forma la cual es hacer una copia de la configuracion que ya tiene nuestra distribucion de linux, los pasos son los siguientes:
+    1. En terminal, nos movemos a la carpeta que descomprimimos en el paso anterior, y escribimos el siguiente comando para copiar la configuracion existente de nuestra distro de linux:  
+    ```cp -v /boot/config-$(uname -r) .config```
+    2. Una vez creada la copia corremos el siguiente comando para hacer cambios en la configuracion:  
+    ```make menuconfig```  
+    ![6_0](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/6_0.png)  
 
+    3. Aparecera un menu en el cual podras configurar cosas como el firmware, el sistema de ficheros, etc, cualquier cosas de la que tengas duda la puedes seleccionar usando las flechas de arriba y abajo para seleccionar y con las flecha de derecha a izquierda selecciona la opcion ```Help``` para saber mas de las opciones, si no necesitas modificar nada, selecciona ```Save``` para guardar la configuracion  
+    ![6_1](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/6_1.png)  
+    ![6_2](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/6_2.png)  
+
+    4. Para salir del menu y regresar a la terminal, una vez guardados los cambios seleccionamos ```Exit``` para salir y asi terminar la configuracion  
+    ![6_3](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/6_3.png)  
+    ![6_4](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/6_4.png)  
+
+    
 ## 7.¿Cómo compilar el código del kernel?
 
 ## 8.¿Cómo instalar módulos?

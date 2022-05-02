@@ -75,6 +75,11 @@ Practica 03 de la materia de Sistemas Operativos 2
 En mi caso lo movi a documentos
 
 ## 5.¿Cómo extraer el código comprimido del kernel desde terminal?
+* Para extraer el codigo comprimido vemos que tiene una extension particular que es ```.tar.xz``` esto nos da la pista que tenemos que usar el comando ```tar xvf```  
+![5_0](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/5_0.png)  
+Y ahora como podemos ver, ya tenemos la carpeta del kernel que vamos a compilar  
+![5_1](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/5_1.png)  
+
 
 ## 6.¿Cómo configurar el kernel?
 

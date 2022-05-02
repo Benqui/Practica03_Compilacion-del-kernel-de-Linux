@@ -70,7 +70,7 @@ Practica 03 de la materia de Sistemas Operativos 2
 ![4_0](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/4_0.png)
 
 * El comando completo (para que lo puedan copiar) es:
-```wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.5.tar.xz```
+```wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.17.5.tar.xz```    
 ![4_2](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/4_2.png)
 En mi caso lo movi a documentos
 

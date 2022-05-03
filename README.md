@@ -109,6 +109,8 @@ Y ahora como podemos ver, ya tenemos la carpeta del kernel que vamos a compilar
 ## 8.¿Cómo instalar módulos?  
 
 * Para hacer la instalacion de modulos simplemente es correr el comando ```sudo make modules_install```  
+![8_0](https://github.com/Benqui/Practica03_Compilacion-del-kernel-de-Linux/blob/main/Images/8_0.png)  
+
 
 
 ## 9.¿Cómo instalar el kernel?  
